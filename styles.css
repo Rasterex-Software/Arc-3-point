@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+#arcButton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 15px;
+  background: none;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+#arcButton:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#arcButton:focus {
+  outline: none;
+  box-shadow: 0 0 5px #007bff;
+}
